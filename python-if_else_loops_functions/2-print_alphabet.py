@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import string
+from string import ascii_lowercase
 
-list(string.ascii_lowercase)
-
+for c in ascii_lowercase:
+    print(c)
