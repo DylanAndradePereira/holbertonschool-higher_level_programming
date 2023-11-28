@@ -1,6 +1,3 @@
 #!/usr/bin/python3
-
-from string import ascii_lowercase
-
-for c in ascii_lowercase:
-    print(c)
+for alpha_letters in range(ord('a'), ord('z') + 1):
+    print("{:c}".format(alpha_letters), end="")
