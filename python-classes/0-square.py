@@ -1,7 +1,8 @@
 #!/usr/bin/python3
+"""jsuis saoulé"""
 
-#class d'un carré
+
 class Square:
+    """class vide"""
 
-    #rien
     pass
